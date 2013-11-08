@@ -1,5 +1,6 @@
 
 #include <stdio.h>
+ 
 
 int partitioning(int *tab, int p, int r) {
   int pivot = tab[p], i = p-1, j = r+1;
